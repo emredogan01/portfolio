@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { NavLinks } from "@/constants";
 import { link } from "fs";
-import Transition from "./transition";
+import Transition from "./Transition";
 
 export default function SideBar() {
   const [isRouting, setIsRouting] = useState(false);
